@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+         <h1>Users</h1>
+      <div class="message">
+        
+        </div>   
+    <form name="userform">
+        <label for="f-name">
+           <div>First name</div> 
+        <input type="text" id="f-name" name="fname"  required>
+        </label>
+        <label for="l-name">
+           <div>Last name</div> 
+        <input type="text" name="lname" required>
+        </label>
+        <label for="username">
+           <div>Username</div> 
+        <input type="text" id="username" name="uname" required>
+        </label>
+        <label for="E-mail">
+            <div>E mail</div>  
+        <input type="email" name="Email" required>
+        </label>
+        <label for="Adrs">
+            <div>Address </div> 
+        <textarea type="" id="Adrs" name="Address" id="Adrs" rows="4" required></textarea>
+        </label>   
+        <label for="phnum">
+            <div>Phone </div>
+        <input type="tel" placeholder="xxx-xxx-xxxx" id="phnum" name="phone" required>
+        </label>
+        <label for="webiste">
+            <div>Website</div> 
+        <input type="text" id="website" name="web-site" >
+        </label>
+        <label for="company">
+           <div>Company name</div> 
+        <input type="text" id="company" name="company-name">
+        </label>
+        <button >Submit</button>
+    </form>
+    <div class="tmessage">
+        
+    </div>
+    
+    <div class="userTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>Sr. No</th>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Website</th>
+                    <th>Company name</th>
+                </tr>
+              <tbody class="table-body">
+                
+              </tbody>
+            </thead>
+        </table>
+    </div>
+
+    </div>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
