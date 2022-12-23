@@ -1,9 +1,9 @@
 
 # Users
 
-In this repository I built a from validation using html css and Javascript and the data will be shown in last row of table after submission of the form. If there is any error in form submission error message will display below the heading 'Users'.
+In this repository I built a form validation using html css and Javascript and the data will be shown in last row of table after submission of the form. If there is any error in form submission error message will display below the heading 'Users'.
 
-When web page loads Data from api will show in table. If any error occur in fetch api it will show error message "Some thing went wrong" below submit button.
+When web page loads Data from api will show in table. If any error occur in fetch api it will show error message "Something went wrong while fetching the users." below submit button.
 
 |Input field  |Error message  |
 |-------------|---------------|
@@ -18,3 +18,4 @@ When web page loads Data from api will show in table. If any error occur in fetc
 
 For webiste input field user should Enter url of of the website.<br />
 eg: 'github.com' will give error but 'https://github.com/' won't give any error. 
+The web page is responsive.
